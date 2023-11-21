@@ -25,16 +25,16 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/Guru322/GURU-BOT",
+    "homepage": "https://github.com/CYBER-x-SACHIYA-SL-MD-BOT/CYBER-PANDA-MD-",
     "author": {
         "name": "GURU"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Guru322/GURU-BOT.git"
+        "url": "git+https://github.com/CYBER-x-SACHIYA-SL-MD-BOT/CYBER-PANDA-MD-.git"
     },
     "bugs": {
-        "url": "https://github.com/Guru322/GURU-BOT/issues"
+        "url": "https://github.com/CYBER-x-SACHIYA-SL-MD-BOT/CYBER-PANDA-MD-/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
