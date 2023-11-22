@@ -289,7 +289,7 @@ break;
     
       conn.sendFile(m.chat, pp, 'perfil.jpg', lkr, m, false, { mentions: [who] });
     
-      let done = '😈';
+      let done = '🐼';
       m.react(done);
     };
     

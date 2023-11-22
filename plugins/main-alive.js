@@ -16,12 +16,12 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
         mimetype: 'audio/mp4',
         ptt: true,
         waveform:  [100, 0, 100, 0, 100, 0, 100],
-        fileName: "menu","alive","list",
+        fileName: "Guru",
     
         contextInfo: {
           mentionedJid: [m.sender],
           externalAdReply: {
-          title: "",
+          title: "I AM ALIVE",
           body: "GURU BOT",
           thumbnailUrl: img,
           sourceUrl: 'https://chat.whatsapp.com/F3sB3pR3tClBvVmlIkqDJp',
@@ -38,4 +38,4 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
     handler.tags = ['main']
     handler.command = /^(alive)$/i 
 
-    export default _
+    export default handler;

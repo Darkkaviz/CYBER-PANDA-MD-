@@ -3,7 +3,7 @@ import { join } from 'path';
 import axios from 'axios'; 
 
 let handler = async function (m, { conn, __dirname }) {
-  const githubRepoURL = 'https://github.com/CYBER-x-SACHIYA-SL-MD-BOT/CYBER-PANDA-MD-V.01';
+  const githubRepoURL = 'https://github.com/Guru322/GURU-BOT';
 
   try {
   
@@ -22,9 +22,6 @@ let handler = async function (m, { conn, __dirname }) {
 ⭐ Stars: ${repoData.stargazers_count}
 🍴 Forks: ${repoData.forks_count}
 🌐 URL: ${repoData.html_url}
-▱▱▱▱▱▱▱▱▱▱▱▱▱
-🐼 │𝐂𝐘𝐁𝜩𝐑│𝐏𝜟𝐍𝐃𝐀│𝐌𝐃│𝐕➂ 🐼
-▱▱▱▱▱▱▱▱▱▱▱▱▱
       `.trim();
 
       // Send the formatted information as a message
@@ -52,6 +49,6 @@ let handler = async function (m, { conn, __dirname }) {
 
 handler.help = ['script'];
 handler.tags = ['main'];
-handler.command = ['sc', 'repo', 'git'];
+handler.command = ['sc', 'repo', 'script'];
 
 export default handler;

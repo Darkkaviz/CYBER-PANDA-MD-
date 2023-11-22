@@ -27,7 +27,7 @@ let handler = async (m, { conn, text }) => {
 🐼 *Views:* ${firstResult.views}
 ▱▱▱▱▱▱▱▱▱▱▱▱▱
 
-    `;
+ᴄʏʙᴇʀ ᴘᴀɴᴅᴀ ᴍᴅ ᴠ3`;
 
     conn.sendFile(m.chat, firstResult.thumbnail, 'yts.jpeg', message, m);
   } catch (error) {

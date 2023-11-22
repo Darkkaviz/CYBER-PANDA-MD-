@@ -28,12 +28,16 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
     // Create a message caption with video information
     const captvid = `
 ▱▱▱▱▱▱▱▱▱▱▱▱▱
-    Y O U T U B E 
+       🎵  𝘚𝘖𝘕𝘎 🎵
 ▱▱▱▱▱▱▱▱▱▱▱▱▱
   🐼 Title: ${title}
+▱▱▱▱▱▱▱▱▱▱▱▱▱
   🐼 Duration: ${duration}
+▱▱▱▱▱▱▱▱▱▱▱▱▱
   🐼 Views: ${views}
+▱▱▱▱▱▱▱▱▱▱▱▱▱
   🐼 Upload: ${uploaded}
+▱▱▱▱▱▱▱▱▱▱▱▱▱
   🐼 Link: ${url}
 ▱▱▱▱▱▱▱▱▱▱▱▱▱`;
 

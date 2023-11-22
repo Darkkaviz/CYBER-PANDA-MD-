@@ -46,15 +46,17 @@ let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './Guru.jpg')
 let user = global.db.data.users[who]
   
 let infobt = `
-≡ *INFO BOT*
-  
+🐼 │𝐂𝐘𝐁𝜩𝐑│𝐏𝜟𝐍𝐃𝐀│𝐌𝐃│𝐕➂ 🐼
+
+*INFO BOT*
+▱▱▱▱▱▱▱▱▱▱▱▱▱ 
 *STATE*
 ▢ *${groupsIn.length}* GROUP CHATS
 ▢ *${groupsIn.length}* united groups
 ▢ *${groupsIn.length - groupsIn.length}* abandoned groups
 ▢ *${chats.length - groupsIn.length}* private chats
 ▢ *${chats.length}* Total Chats
-
+▱▱▱▱▱▱▱▱▱▱▱▱▱
 *≡ OWNER*
   *GURU*
 ▢ Instagram :
@@ -65,11 +67,11 @@ let infobt = `
   • t.me/i_want_to_be_isekaied (GURU) 
 ▢ YouTube : 
   • https://youtube.com/@Asliguru
-
+▱▱▱▱▱▱▱▱▱▱▱▱▱
  *≡ S E R V E R*
 *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
 *🔵 FreeRAM:* ${format(freemem())}
-
+▱▱▱▱▱▱▱▱▱▱▱▱▱
 *≡  NodeJS memory *
 ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v => v.length)), ' ')}: ${format(used[key])}`).join('\n') + '```'}
 `
