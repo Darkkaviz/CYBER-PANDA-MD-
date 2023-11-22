@@ -7,7 +7,7 @@ let limit = 500;
 let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) => {
   let chat = global.db.data.chats[m.chat];
   if (!args || !args[0]) throw `✳️ Example:\n${usedPrefix + command} https://youtu.be/YzkTFFwxtXI`;
-  if (!args[0].match(/youtu/gi)) throw `❎ Verify that the YouTube link`;
+  if (!args[0].match(/youtu/gi)) throw `❓ Verify that the YouTube link`;
   
   var gapi = `${gurubot}/v1/ytmp4?url=${encodeURIComponent(args)}`
 
@@ -20,16 +20,23 @@ let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) =
   }
   const data = await response.json();
 
-  const caption = `✼ ••๑⋯❀ Y O U T U B E ❀⋯⋅๑•• ✼
-	  
+  const caption = `
+▱▱▱▱▱▱▱▱▱▱▱▱▱
+     🎵 Y O U T U B E🎵
+▱▱▱▱▱▱▱▱▱▱▱▱▱
   ❏ Title: ${data.result.title}
+▱▱▱▱▱▱▱▱▱▱▱▱▱
   ❏ Channel: ${data.result.channel}
+▱▱▱▱▱▱▱▱▱▱▱▱▱
   ❐ Duration: ${data.result.seconds} seconds
+▱▱▱▱▱▱▱▱▱▱▱▱▱
   ❑ Views: ${data.result.view}
+▱▱▱▱▱▱▱▱▱▱▱▱▱
   ❒ Upload: ${data.result.publicDate}
+▱▱▱▱▱▱▱▱▱▱▱▱▱
   ❒ Link: ${args[0]}
-  
-  ⊱─━⊱༻●༺⊰━─⊰`
+▱▱▱▱▱▱▱▱▱▱▱▱▱
+`
 
 
   let vid = await fetch(gapi)

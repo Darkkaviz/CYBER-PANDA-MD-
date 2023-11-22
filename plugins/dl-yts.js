@@ -15,11 +15,17 @@ let handler = async (m, { conn, text }) => {
     const firstResult = results[0];
 
     const message = `
-乂 ${firstResult.title}
-乂 *Link* : ${firstResult.url}
-乂 *Duration* : ${firstResult.timestamp}
-乂 *Published :* ${firstResult.ago}
-乂 *Views:* ${firstResult.views}
+▱▱▱▱▱▱▱▱▱▱▱▱▱
+🐼 ${firstResult.title}
+▱▱▱▱▱▱▱▱▱▱▱▱▱
+🐼 *Link* : ${firstResult.url}
+▱▱▱▱▱▱▱▱▱▱▱▱▱
+🐼 *Duration* : ${firstResult.timestamp}
+▱▱▱▱▱▱▱▱▱▱▱▱▱
+🐼 *Published :* ${firstResult.ago}
+▱▱▱▱▱▱▱▱▱▱▱▱▱
+🐼 *Views:* ${firstResult.views}
+▱▱▱▱▱▱▱▱▱▱▱▱▱
 
     `;
 

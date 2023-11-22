@@ -15,38 +15,33 @@ import {
  
  const defaultMenu = {
   before: `
-  「 ${botname} あ⁩ 」\n
-  *%ucpn*
- 
- 乂───『 *U S E R*』───乂
- ⛥ *Name:* %name
-  ⛥ *Gold:* %credit
-  ⛥ *Role:* %role
-  ⛥ *Level:* %level [ %xp4levelup Xp For Levelup]
-  ⛥ *Xp:* %exp / %maxexp
-  ⛥ *Total Xp:* %totalexp
-  ╰──────────⳹
- 
-  乂───『 *I N F O*』───乂
-  ⛥ *Bot Name:* ${botname}
-  ⛥ *Mode:* %mode
-  ⛥ *Platform:* %platform
-  ⛥ *Type:* NodeJs
-  ⛥ *Baileys:* Multi Device
-  ⛥ *Prefix:* [ *%_p* ]
-  ⛥ *Uptime:* %muptime
-  ⛥ *Database:*  %totalreg
-  ╰──────────⳹
-  
-  乂───『 *I N F O  C M D*』───乂 
-  │ *%totalfeatures* Commands
-  ╰──────────⳹
- %readmore
- `.trimStart(),
- header: "✦ ───『 *%category* 』─── ⚝",
- body: "◈ %cmd %isPremium %islimit",
- footer: "╰──────────⳹",
- after: "\n%me",
+▱▱▱▱▱▱▱▱▱▱▱▱▱
+🐼 │𝐂𝐘𝐁𝜩𝐑│𝐏𝜟𝐍𝐃𝐀│𝐌𝐃│𝐕➂ 🐼
+▱▱▱▱▱▱▱▱▱▱▱▱▱
+┏━_User Info_━┓
+┃  *User Tag:* ${taguser} 
+┃*Name:* ${name} 
+┗━━━━━━━━━━━┛
+▱▱▱▱▱▱▱▱▱▱▱▱▱
+┏━━_Today's Sauce!_━┓
+┃*Today's Date:* ${date} 
+┃*Current Time:* ${wib} 
+┗━━━━━━━━━━━━━┛
+▱▱▱▱▱▱▱▱▱▱▱▱▱
+┏━━_BOT STATUS_━━┓
+┃*Bot Name:* ${botname} 
+┃*Platform:* Linux 
+┃*Prefix:* ${usedPrefix} 
+┃*Uptime:* ${uptime}
+┃*Database:* ${rtotalreg} of ${totaluser} 
+┃*Total Users:* ${totaluser} 
+┗━━━━━━━━━━━━━┛
+
+🐼 │𝐂𝐘𝐁𝜩𝐑│𝐏𝜟𝐍𝐃𝐀│𝐌𝐃│𝐕➂ 🐼 `.trimStart(),
+ header: "▱▱▱▱▱▱▱▱▱▱▱▱▱",
+ body: "🐼 │𝐂𝐘𝐁𝜩𝐑│𝐏𝜟𝐍𝐃𝐀│𝐌𝐃│𝐕➂ 🐼",
+ footer: "▱▱▱▱▱▱▱▱▱▱▱▱▱",
+ after: "Bot Developer by Sachith",
  }
  let handler = async (m, {
   conn,
@@ -56,7 +51,7 @@ import {
  }) => {
   await conn.sendMessage(m.chat, {
    react: {
- text: "⏳",
+ text: "🐼",
  key: m.key,
    }
   })
@@ -135,8 +130,8 @@ import {
    ...help.filter(menu => menu.tags && menu.tags.includes(tag) && menu.help).map(menu => {
  return menu.help.map(help => {
   return body.replace(/%cmd/g, menu.prefix ? help : "%_p" + help)
-   .replace(/%islimit/g, menu.limit ? "Ⓛ" : "")
-   .replace(/%isPremium/g, menu.premium ? "🅟" : "")
+   .replace(/%islimit/g, menu.limit ? "" : "")
+   .replace(/%isPremium/g, menu.premium ? "" : "")
    .trim()
  }).join("\n")
    }),
@@ -225,7 +220,7 @@ import {
  
  function ucapan() {
   const time = moment.tz("Asia/Kolkata").format("HH")
-  let res = "Good morning ☀️"
+  let res = "ගුට් මොනින්ග් 😊🥰"
   if (time >= 4) {
    res = "Good Morning 🌄"
   }
