@@ -17,17 +17,17 @@
       "required": true,
       "value": ""
     },
-    "PRIVATE": {
+    "PRIVATE AND PUBLIC": {
       "description": "Set it true if you want to make the bot private, leave Blank for public",
-      "required": false,
+      "required": true,
       "value": ""
     },
     "PREFIX": {
       "description": "put any one symbol here except @ and + , leave it Blank if you want to use multiple prefix",
-      "required": false,
+      "required": true,
       "value": ""
     },
-     "HKEY": {
+     "HEROKU API KEY": {
       "description": "Put your Heroku api key Here , Get one from here https://dashboard.heroku.com/account",
       "required": true,
       "value": ""
