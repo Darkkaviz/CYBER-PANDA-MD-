@@ -8,18 +8,28 @@ let handler = async (m, { conn, usedPrefix, command}) => {
     
       let lkr;
       switch (command) {
-        case 'list':
-lkr = "*Get ready for the ride, here are your ticket options:*\n\n" +
+        case 'menu':
+lkr = "━━━━━━━━━━━━━━━➤\n\n" +
 "🤖 *" + usedPrefix + "botmenu* - The Bot's secret control panel. What's your command, oh great one?\n\n" +
+lkr = "━━━━━━━━━━━━━━━➤\n\n"
 "👑 *" + usedPrefix + "ownermenu* - The sacred scroll only for the chosen one. Yep, that's you, Boss!\n\n" +
+lkr = "━━━━━━━━━━━━━━━➤\n\n"
 "🧑‍🤝‍🧑 *" + usedPrefix + "groupmenu* - Group shenanigans central! Unite, chat, conquer!\n\n" +
+lkr = "━━━━━━━━━━━━━━━➤\n\n"
 "📥 *" + usedPrefix + "dlmenu* - 'DL' stands for 'Delicious Loot'. Come grab your goodies!\n\n" +
+lkr = "━━━━━━━━━━━━━━━➤\n\n"
 "🎉 *" + usedPrefix + "funmenu* - The bot's party hat. Games, jokes and instant ROFLs. Let's get this party started!\n\n" +
+lkr = "━━━━━━━━━━━━━━━➤\n\n"
 "💰 *" + usedPrefix + "economymenu* - Bling bling! Your personal vault of virtual economy. Spend or save? Choose wisely!\n\n" +
+lkr = "━━━━━━━━━━━━━━━➤\n\n"
 "🎮 *" + usedPrefix + "gamemenu* - Enter the gaming arena. May the odds be ever in your favor!\n\n" +
+lkr = "━━━━━━━━━━━━━━━➤\n\n"
 "🎨 *" + usedPrefix + "stickermenu* - A rainbow of stickers for your inner artist. Make your chats pop!\n\n" +
+lkr = "━━━━━━━━━━━━━━━➤\n\n"
 "🧰 *" + usedPrefix + "toolmenu* - Your handy-dandy toolkit. What's your pick, genius?\n\n" +
+lkr = "━━━━━━━━━━━━━━━➤\n\n"
 "🎩 *" + usedPrefix + "logomenu* - Create a logo that screams YOU. Or whispers. You choose the volume.\n\n" +
+lkr = "━━━━━━━━━━━━━━━➤\n\n"
 "🌙 *" + usedPrefix + "nsfwmenu* - The After Dark menu. But remember, sharing adult secrets must be consent-based.";
 break;
 
@@ -255,36 +265,13 @@ break;
        𝙏𝙊𝙊𝙇𝙎 𝙈𝙀𝙉𝙐
      ╰───•••──┄ °     
      ┏━━━ʕ•㉨•ʔ━━━┓
-     ⎪ _${usedPrefix}autosticker_
      ⎪ _${usedPrefix}pdf_
-     ⎪ _${usedPrefix}whatmusic_
-     ⎪ _${usedPrefix}calc_
      ⎪ _${usedPrefix}google_
-     ⎪ _${usedPrefix}lyrics_
-     ⎪ _${usedPrefix}readmore_
      ⎪ _${usedPrefix}ssweb_
      ⎪ _${usedPrefix}tts_
      ⎪ _${usedPrefix}translate_
-     ⎪ _${usedPrefix}tourl_
-     ⎪ _${usedPrefix}wikipedia_
-     ⎪ _${usedPrefix}nowa_
-     ⎪ _${usedPrefix}qrmaker_
-     ⎪ _${usedPrefix}readqr_
-     ⎪ _${usedPrefix}fancy_
-     ⎪ _${usedPrefix}weather_
-     ⎪ _${usedPrefix}siri_
-     ⎪ _${usedPrefix}alexa_
-     ⎪ _${usedPrefix}dalle_
-     ⎪ _${usedPrefix}tocartoon_
-     ⎪ _${usedPrefix}quote_
-     ⎪ _${usedPrefix}technews_
-     ⎪ _${usedPrefix}define_
-     ⎪ _${usedPrefix}pokedex_
      ⎪ _${usedPrefix}removebg_
      ⎪ _${usedPrefix}apk_
-     ⎪ _${usedPrefix}tinyurl/shorturl_
-     ⎪ _${usedPrefix}readvo_
-     ⎪ _${usedPrefix}true_
      ┗━━━ʕ•㉨•ʔ━━━┛`; // 
           break;
           case 'nsfwmenu':
