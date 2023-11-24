@@ -55,7 +55,6 @@ break;
    ⎪ _${usedPrefix}groups_
    ⎪ _${usedPrefix}blocklist_
    ⎪ _${usedPrefix}listprem_
-   ⎪    Guru
    ┗━━━ʕ•㉨•ʔ━━━┛`; // Your bot menu message here
           break;
         case 'ownermenu':
