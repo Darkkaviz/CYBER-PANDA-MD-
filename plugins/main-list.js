@@ -8,28 +8,18 @@ let handler = async (m, { conn, usedPrefix, command}) => {
     
       let lkr;
       switch (command) {
-        case 'menu':
-lkr = "━━━━━━━━━━━━━━━➤\n\n" +
+        case 'list':
+lkr = "*Get ready for the ride, here are your ticket options:*\n\n" +
 "🤖 *" + usedPrefix + "botmenu* - The Bot's secret control panel. What's your command, oh great one?\n\n" +
-lkr = "━━━━━━━━━━━━━━━➤\n\n"
 "👑 *" + usedPrefix + "ownermenu* - The sacred scroll only for the chosen one. Yep, that's you, Boss!\n\n" +
-lkr = "━━━━━━━━━━━━━━━➤\n\n"
 "🧑‍🤝‍🧑 *" + usedPrefix + "groupmenu* - Group shenanigans central! Unite, chat, conquer!\n\n" +
-lkr = "━━━━━━━━━━━━━━━➤\n\n"
 "📥 *" + usedPrefix + "dlmenu* - 'DL' stands for 'Delicious Loot'. Come grab your goodies!\n\n" +
-lkr = "━━━━━━━━━━━━━━━➤\n\n"
 "🎉 *" + usedPrefix + "funmenu* - The bot's party hat. Games, jokes and instant ROFLs. Let's get this party started!\n\n" +
-lkr = "━━━━━━━━━━━━━━━➤\n\n"
 "💰 *" + usedPrefix + "economymenu* - Bling bling! Your personal vault of virtual economy. Spend or save? Choose wisely!\n\n" +
-lkr = "━━━━━━━━━━━━━━━➤\n\n"
 "🎮 *" + usedPrefix + "gamemenu* - Enter the gaming arena. May the odds be ever in your favor!\n\n" +
-lkr = "━━━━━━━━━━━━━━━➤\n\n"
 "🎨 *" + usedPrefix + "stickermenu* - A rainbow of stickers for your inner artist. Make your chats pop!\n\n" +
-lkr = "━━━━━━━━━━━━━━━➤\n\n"
 "🧰 *" + usedPrefix + "toolmenu* - Your handy-dandy toolkit. What's your pick, genius?\n\n" +
-lkr = "━━━━━━━━━━━━━━━➤\n\n"
 "🎩 *" + usedPrefix + "logomenu* - Create a logo that screams YOU. Or whispers. You choose the volume.\n\n" +
-lkr = "━━━━━━━━━━━━━━━➤\n\n"
 "🌙 *" + usedPrefix + "nsfwmenu* - The After Dark menu. But remember, sharing adult secrets must be consent-based.";
 break;
 
@@ -39,10 +29,10 @@ break;
 
         case 'botmenu':
           lkr = `
-    ° ┄──•••───╮
-      𝘽𝙊𝙏 𝙈𝙀𝙉𝙐  
-   ╰───•••──┄ °     
-   ┏━━━ʕ•㉨•ʔ━━━┓
+    ┄──•••───╮
+     𝘽𝙊𝙏 𝙈𝙀𝙉𝙐  
+   ╰───•••──┄     
+   ┏━━━✰✰✰━━━┓
    ⎪ _${usedPrefix}gita_
    ⎪ _${usedPrefix}ping_
    ⎪ _${usedPrefix}uptime_
@@ -55,14 +45,14 @@ break;
    ⎪ _${usedPrefix}groups_
    ⎪ _${usedPrefix}blocklist_
    ⎪ _${usedPrefix}listprem_
-   ┗━━━ʕ•㉨•ʔ━━━┛`; // Your bot menu message here
+   ┗━━━✰✰✰━━━┛`; // Your bot menu message here
           break;
         case 'ownermenu':
           lkr = `
-      ° ┄──•••───╮
-      𝙊𝙒𝙉𝙀𝙍 𝙈𝙀𝙉𝙐  
-     ╰───•••──┄ °     
-     ┏━━━ʕ•㉨•ʔ━━━┓
+      ┄──•••───╮
+       𝙊𝙒𝙉𝙀𝙍 𝙈𝙀𝙉𝙐  
+     ╰───•••──┄     
+     ┏━━━✰✰✰━━━┓
      ⎪ _${usedPrefix}banchat_
      ⎪ _${usedPrefix}unbanchat_
      ⎪ _${usedPrefix}banuser_
@@ -75,14 +65,14 @@ break;
      ⎪ _${usedPrefix}resetprefix_
      ⎪ _${usedPrefix}getfile_
      ⎪ _${usedPrefix}getplugin_
-     ┗━━━ʕ•㉨•ʔ━━━┛`; // 
+     ┗━━━✰✰✰━━━┛`; // 
           break;
           case 'groupmenu':
           lkr = `
-    ° ┄──•••───╮
+     ┄──•••───╮
       𝙂𝙍𝙊𝙐𝙋 𝙈𝙀𝙉𝙐 
-    ╰───•••──┄ °     
-    ┏━━━ʕ•㉨•ʔ━━━┓
+    ╰───•••──┄     
+    ┏━━━✰✰✰━━━┓
     ⎪_${usedPrefix}kick *<@tag>*_
     ⎪_${usedPrefix}promote *<@tag>*_
     ⎪ _${usedPrefix}demote *<@tag>*_
@@ -99,15 +89,15 @@ break;
     ⎪ _${usedPrefix}unwarn *<@tag>*_
     ⎪ _${usedPrefix}group *<open/close>*_
     ⎪ _${usedPrefix}enable
-    ┗━━━ʕ•㉨•ʔ━━━┛`; // 
+    ┗━━━✰✰✰━━━┛`; // 
           break;
           case 'downloadermenu':
             case 'dlmenu' :
           lkr = `
-    ° ┄──•••───╮
-       𝘿𝙇 𝙈𝙀𝙉𝙐 
-   ╰───•••──┄ °     
-   ┏━━━ʕ•㉨•ʔ━━━┓
+    ┄──•••───╮
+      𝘿𝙇 𝙈𝙀𝙉𝙐 
+   ╰───•••──┄     
+   ┏━━━✰✰✰━━━┓
    ⎪_${usedPrefix}play_
    ⎪_${usedPrefix}song_
    ⎪ _${usedPrefix}yta <link>_
@@ -125,14 +115,14 @@ break;
    ⎪ _${usedPrefix}instagram <link>_
    ⎪ _${usedPrefix}spotify_
    ⎪ _${usedPrefix}facebook <link>_
-   ┗━━━ʕ•㉨•ʔ━━━┛`; // 
+   ┗━━━✰✰✰━━━┛`; // 
           break;
           case 'economymenu':
           lkr = `
-    ° ┄──•••───╮
-       𝙀𝘾𝙊𝙉𝙊𝙈𝙔 
-   ╰───•••──┄ °     
-   ┏━━━ʕ•㉨•ʔ━━━┓
+    ┄──•••───╮
+      𝙀𝘾𝙊𝙉𝙊𝙈𝙔 
+   ╰───•••──┄     
+   ┏━━━✰✰✰━━━┓
    ⎪ _${usedPrefix}claim/daily_
    ⎪ _${usedPrefix}weekly_
    ⎪ _${usedPrefix}monthly_
@@ -150,14 +140,14 @@ break;
    ⎪ _${usedPrefix}transfer_
    ⎪ _${usedPrefix}todiamond_
    ⎪ _${usedPrefix}tomoney_
-   ┗━━━ʕ•㉨•ʔ━━━┛`; // 
+   ┗━━━✰✰✰━━━┛`; // 
           break;
           case 'funmenu':
           lkr = `
-     ° ┄──•••───╮
-       𝙁𝙐𝙉 𝙈𝙀𝙉𝙐
-    ╰───•••──┄ °     
-    ┏━━━ʕ•㉨•ʔ━━━┓
+     ┄──•••───╮
+      𝙁𝙐𝙉 𝙈𝙀𝙉𝙐
+    ╰───•••──┄     
+    ┏━━━✰✰✰━━━┓
     ⎪ _${usedPrefix}character_
     ⎪ _${usedPrefix}truth_
     ⎪ _${usedPrefix}dare_
@@ -171,14 +161,14 @@ break;
     ⎪ _${usedPrefix}ytcomment_
     ⎪ _${usedPrefix}stupid_
     ⎪ _${usedPrefix}lolicon_
-    ┗━━━ʕ•㉨•ʔ━━━┛`; // 
+    ┗━━━✰✰✰━━━┛`; // 
           break;
           case 'animemenu':
           lkr = `
-     ° ┄──•••───╮
-      𝐴𝑁𝐼𝑀𝐸 𝑀𝐸𝑁𝑈
-    ╰───•••──┄ °     
-    ┏━━━ʕ•㉨•ʔ━━━┓
+     ┄──•••───╮
+     𝐴𝑁𝐼𝑀𝐸 𝑀𝐸𝑁𝑈
+    ╰───•••──┄     
+    ┏━━━✰✰✰━━━┓
     ⎪ _${usedPrefix}waifu_
     ⎪ _${usedPrefix}neko_
     ⎪ _${usedPrefix}loli_
@@ -216,15 +206,15 @@ break;
     ⎪ _${usedPrefix}sasuke_
     ⎪ _${usedPrefix}sakura_
     ⎪ _${usedPrefix}kotori_
-    ┗━━━ʕ•㉨•ʔ━━━┛
+    ┗━━━✰✰✰━━━┛
     `; 
           break;
           case 'gamemenu':
           lkr = `
-     ° ┄──•••───╮
+     ┄──•••───╮
       𝙂𝘼𝙈𝙀 𝙈𝙀𝙉𝙐 
-    ╰───•••──┄ °     
-    ┏━━━ʕ•㉨•ʔ━━━┓
+    ╰───•••──┄ 
+    ┏━━━✰✰✰━━━┓
     ⎪ _${usedPrefix}tictactoe_
     ⎪ _${usedPrefix}delttt_
     ⎪ _${usedPrefix}math_
@@ -234,14 +224,14 @@ break;
     ⎪ _${usedPrefix}casino_
     ⎪ _${usedPrefix}yourmom_
     ⎪ _${usedPrefix}teri mummy_
-    ┗━━━ʕ•㉨•ʔ━━━┛`; // 
+    ┗━━━✰✰✰━━━┛`; // 
           break;
           case 'stickermenu':
           lkr = `
-      ° ┄──•••───╮
-       𝙎𝙏𝙄𝘾𝙆𝙀𝙍 𝙈𝙀𝙉𝙐
-     ╰───•••──┄ °     
-     ┏━━━ʕ•㉨•ʔ━━━┓
+       ┄──•••───╮
+      𝙎𝙏𝙄𝘾𝙆𝙀𝙍 𝙈𝙀𝙉𝙐
+     ╰───•••──┄     
+     ┏━━━✰✰✰━━━┓
      ⎪ _${usedPrefix}sticker_
      ⎪ _${usedPrefix}take_
      ⎪ _${usedPrefix}scircle_
@@ -256,22 +246,45 @@ break;
      ⎪ _${usedPrefix}attp_
      ⎪ _${usedPrefix}attp2_
      ⎪ _${usedPrefix}attp3_
-     ┗━━━ʕ•㉨•ʔ━━━┛`; 
+     ┗━━━✰✰✰━━━┛`; 
           break;
           case 'toolmenu':
           lkr = `
-      ° ┄──•••───╮
-       𝙏𝙊𝙊𝙇𝙎 𝙈𝙀𝙉𝙐
-     ╰───•••──┄ °     
-     ┏━━━ʕ•㉨•ʔ━━━┓
+      ┄──•••───╮
+      𝙏𝙊𝙊𝙇𝙎 𝙈𝙀𝙉𝙐
+     ╰───•••──┄      
+    ┏━━━✰✰✰━━━┓
+     ⎪ _${usedPrefix}autosticker_
      ⎪ _${usedPrefix}pdf_
+     ⎪ _${usedPrefix}whatmusic_
+     ⎪ _${usedPrefix}calc_
      ⎪ _${usedPrefix}google_
+     ⎪ _${usedPrefix}lyrics_
+     ⎪ _${usedPrefix}readmore_
      ⎪ _${usedPrefix}ssweb_
      ⎪ _${usedPrefix}tts_
      ⎪ _${usedPrefix}translate_
+     ⎪ _${usedPrefix}tourl_
+     ⎪ _${usedPrefix}wikipedia_
+     ⎪ _${usedPrefix}nowa_
+     ⎪ _${usedPrefix}qrmaker_
+     ⎪ _${usedPrefix}readqr_
+     ⎪ _${usedPrefix}fancy_
+     ⎪ _${usedPrefix}weather_
+     ⎪ _${usedPrefix}siri_
+     ⎪ _${usedPrefix}alexa_
+     ⎪ _${usedPrefix}dalle_
+     ⎪ _${usedPrefix}tocartoon_
+     ⎪ _${usedPrefix}quote_
+     ⎪ _${usedPrefix}technews_
+     ⎪ _${usedPrefix}define_
+     ⎪ _${usedPrefix}pokedex_
      ⎪ _${usedPrefix}removebg_
      ⎪ _${usedPrefix}apk_
-     ┗━━━ʕ•㉨•ʔ━━━┛`; // 
+     ⎪ _${usedPrefix}tinyurl/shorturl_
+     ⎪ _${usedPrefix}readvo_
+     ⎪ _${usedPrefix}true_
+    ┗━━━✰✰✰━━━┛`; // 
           break;
           case 'nsfwmenu':
           lkr = `use command ${usedPrefix}nsfw`; // 
