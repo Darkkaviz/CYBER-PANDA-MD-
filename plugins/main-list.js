@@ -9,18 +9,16 @@ let handler = async (m, { conn, usedPrefix, command}) => {
       let lkr;
       switch (command) {
         case 'list':
-lkr = "*Get ready for the ride, here are your ticket options:*\n\n" +
-"🤖 *" + usedPrefix + "botmenu* - The Bot's secret control panel. What's your command, oh great one?\n\n" +
-"👑 *" + usedPrefix + "ownermenu* - The sacred scroll only for the chosen one. Yep, that's you, Boss!\n\n" +
-"🧑‍🤝‍🧑 *" + usedPrefix + "groupmenu* - Group shenanigans central! Unite, chat, conquer!\n\n" +
-"📥 *" + usedPrefix + "dlmenu* - 'DL' stands for 'Delicious Loot'. Come grab your goodies!\n\n" +
-"🎉 *" + usedPrefix + "funmenu* - The bot's party hat. Games, jokes and instant ROFLs. Let's get this party started!\n\n" +
-"💰 *" + usedPrefix + "economymenu* - Bling bling! Your personal vault of virtual economy. Spend or save? Choose wisely!\n\n" +
-"🎮 *" + usedPrefix + "gamemenu* - Enter the gaming arena. May the odds be ever in your favor!\n\n" +
-"🎨 *" + usedPrefix + "stickermenu* - A rainbow of stickers for your inner artist. Make your chats pop!\n\n" +
-"🧰 *" + usedPrefix + "toolmenu* - Your handy-dandy toolkit. What's your pick, genius?\n\n" +
-"🎩 *" + usedPrefix + "logomenu* - Create a logo that screams YOU. Or whispers. You choose the volume.\n\n" +
-"🌙 *" + usedPrefix + "nsfwmenu* - The After Dark menu. But remember, sharing adult secrets must be consent-based.";
+lkr = "*🐼 │𝐂𝐘𝐁𝜩𝐑│𝐏𝜟𝐍𝐃𝐀│𝐌𝐃│𝐕➂ 🐼*\n\n\n\n" +
+"🎭" + usedPrefix + "*𝘉𝘖𝘛𝘔𝘌𝘕𝘜* - *ඔබ බාවිතා කරන බොට්ගෙ විදාන දැන ගැනිම සදහා.*\n\n\n\n" +
+"🎭" + usedPrefix + "*𝘖𝘞𝘕𝘌𝘙𝘔𝘌𝘕𝘜* - *ඔනවර් ගැන දැන ගැනිම සදහා.*\n\n\n\n" +
+"🎭" + usedPrefix + "*𝘎𝘙𝘖𝘜𝘗𝘔𝘌𝘕𝘜* - *ගෘප් තුල බාවිතා කරන විදාන.*\n\n\n\n" +
+"🎭" + usedPrefix + "*𝘋𝘓𝘔𝘌𝘕𝘜* - *ඔබට අවෂ්ය දෙවල් ඩවුන්ලොඩ් කිරිම සදහා බාවිතා වන කමාන්ඩ්.*\n\n\n\n" +
+"🎭" + usedPrefix + "*𝘍𝘜𝘕𝘔𝘌𝘕𝘜* - *විනොදය සදහා බාවිතා වන කමාන්ඩ්.*\n\n\n\n" +
+"🎭" + usedPrefix + "*𝘚𝘛𝘐𝘊𝘒𝘌𝘙𝘔𝘌𝘕𝘜* - *චායා රුපයක් සදා ගැනිම සදහා.*\n\n\n\n" +
+"🎭" + usedPrefix + "*𝘛𝘖𝘖𝘓𝘔𝘌𝘕𝘜* - *වෙනත් විදාන.*\n\n\n\n" +
+"🎭" + usedPrefix + "*𝘓𝘖𝘎𝘖𝘔𝘌𝘕𝘜* - *ලොගො නිර්මාණය කර ගැනිමට.*\n\n\n\n" +
+"🎭" + usedPrefix + "*𝘕𝘚𝘍𝘞𝘔𝘌𝘕𝘜* - *මෙම විදානය තවම සක්‍රිය කර නැති බැවින් කරුනික වන්න.*  😊";
 break;
 
           
