@@ -55,7 +55,7 @@ global.botname = '🐼 │𝐂𝐘𝐁𝜩𝐑│𝐏𝜟𝐍𝐃𝐀│𝐌𝐃
 global.premium = 'true'
 global.packname = '🐼 │𝐂𝐘𝐁𝜩𝐑│𝐏𝜟𝐍𝐃𝐀│𝐌𝐃│𝐕➂ 🐼' 
 global.author = '🐼 │𝐂𝐘𝐁𝜩𝐑│𝐏𝜟𝐍𝐃𝐀│𝐌𝐃│𝐕➂ 🐼' 
-global.menuvid = 'https://telegra.ph/SL-SACHITH-CHANDRA-11-26'
+global.menuvid = 'https://telegra.ph/hi-11-27-320'
 global.igfg = 'Follow on Instagram\nhttps://www.instagram.com/asli_guru69\n' 
 global.dygp = 'https://chat.whatsapp.com/BibVE6tUICp3qOm2a1Ur8f'
 global.fgsc = 'https://github.com/Guru322/GURU-BOT' 
@@ -69,7 +69,7 @@ global.thumb = fs.readFileSync('./Assets/Gurulogo.jpg')
 global.wait = '*🐼 _𝘊𝘏𝘈𝘙𝘎𝘐𝘕𝘎..._*\n*𝘜𝘗𝘓𝘖𝘋𝘐𝘕𝘎.....🎯*'
 global.rwait = '👽'
 global.dmoji = '🤭'
-global.done = '✅'
+global.done = '🛑'
 global.error = '❌' 
 global.xmoji = '🎭' 
 
