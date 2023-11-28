@@ -1,50 +1,7 @@
 {
-  "name": "whatsapp-bot (GURU-BOT)",
-  "description": " Whatsapp bot.",
-  "keywords": [
-    "whatsapp bot"
-  ],
-  "repository": "https://github.com/CYBER-x-SACHIYA-SL-MD-BOT/CYBER-PANDA-MD-",
-  "stack": "container",
-  "env": {
-    "SESSION_ID": {
-      "description": "your session id",
-      "required": true,
-      "value": ""
-    },
-    "PRIVATE": {
-      "description": "Set it true if you want to make the bot private, leave Blank for public",
-      "required": false,
-      "value": ""
-    },
-    "PREFIX": {
-      "description": "put any one symbol here except @ and + , leave it Blank if you want to use multiple prefix",
-      "required": false,
-      "value": ""
-    },
-     "HKEY": {
-      "description": "Put your Heroku api key Here , Get one from here https://dashboard.heroku.com/account",
-      "required": true,
-      "value": ""
-    },
-     "HAPP": {
-      "description": "Put the Heroku app name, same as above entered",
-      "required": true,
-      "value": ""
-    },
-    "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    },
-    {
-      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git"
-    },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-    },
-    {
-      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
-    }
-  ]
+  "name": "Sakura-bot",
+  "description": "Customizable WhatsApp Bot",
+  "repository": "https://github.com/FG98F/dylux-fg",
+  "logo": "https://i.ibb.co/dG6rm49/fg-logo.png",
+  "keywords": ["bot", "whatsapp", "whatsapp-bot", "rpg", "dylux-bot-md", "dylux-bot"]
 }
-
