@@ -1,5 +1,5 @@
-![Uploading giphy.gif…]()
-![IMG-20231101-WA0035](https://github.com/CYBER-x-SACHIYA-SL-MD-BOT/CYBER-PANDA-MD-V.01/assets/133668461/64132d97-d0ec-4267-8c63-a1bafa5366fa)
+![Uploading 20231130_221550.png…]()
+![20231130_221550](https://github.com/CYBER-x-SACHIYA-SL-MD-BOT/CYBER-PANDA-MD-/assets/133668461/0bd96114-4cf2-45ae-8aa4-274ffae18381)
 ___________
 
 # CYBER-PANDA-MD-V.01
@@ -27,3 +27,7 @@ ___________
 <a href="https://chat.whatsapp.com/FiVM7anDmin0qnLqWwkgev"><img src="https://img.shields.io/badge/Join Official GC-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 <a href="https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A"><img src="https://img.shields.io/badge/Subscribe Xeon-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtu.be/n_d3qX_m3F0?si=YQWusOdWpjpRXFi-" /><br>
 </p>
+
+
+
+
