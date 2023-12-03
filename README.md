@@ -13,7 +13,7 @@ ___________
 ___________
 
 
-## `Scan QR Code For Session`
+## `Scan QR Code For You WhatsApp Number Add replit Scan 🐼 `
 [![Cheems Bot](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@slsachith93/SL-SACHITH?v=1)
 
 
