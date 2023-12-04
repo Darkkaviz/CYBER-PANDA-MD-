@@ -55,13 +55,13 @@ global.botname = '🐼 │𝐂𝐘𝐁𝜩𝐑│𝐏𝜟𝐍𝐃𝐀│𝐌𝐃
 global.premium = 'true'
 global.packname = '🐼 │𝐂𝐘𝐁𝜩𝐑│𝐏𝜟𝐍𝐃𝐀│𝐌𝐃│𝐕➂ 🐼' 
 global.author = '🐼 │𝐂𝐘𝐁𝜩𝐑│𝐏𝜟𝐍𝐃𝐀│𝐌𝐃│𝐕➂ 🐼' 
-global.menuvid = 'https://telegra.ph/CYBER-PANDA-MD-12-04'
+global.menuvid = ''
 global.igfg = 'Follow on Instagram\nhttps://www.instagram.com/asli_guru69\n' 
 global.dygp = 'https://replit.com/@ffm08985/or?v=1'
 global.fgsc = 'https://github.com/CYBER-x-SACHIYA-SL-MD-BOT/CYBER-PANDA-MD-V.01' 
 global.fgyt = ''
 global.fgpyp = ''
-global.fglog = '' 
+global.fglog = 'https://i.imgur.com/n9CR7Wf.jpg' 
 global.thumb = fs.readFileSync('./Assets/Gurulogo.jpg')
 
 //https://telegra.ph/file/fe136f976845b3b2f09fd.mp4
