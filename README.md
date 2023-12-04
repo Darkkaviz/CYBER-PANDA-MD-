@@ -17,9 +17,9 @@
 
 ___________
 
- # CYBER-PANDA-MD-V.03
- #
- Best Multi Device WhatsApp Bot
+ <p align="center">
+   <a href="https://github.com/CYBER-x-SACHIYA-SL-MD-BOT/CYBER-PANDA-MD-"><img src="http://readme-typing-svg.herokuapp.com?color=FF0000&center=true&vCenter=true&multiline=false&lines=Cyber+Panda+MD;Best+MultiDevice+Bot;Developed+By+Sachiya;Supported+By+Senuwa" alt="UwU">
+</p>
 
 ___________
 
