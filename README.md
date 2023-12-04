@@ -3,7 +3,7 @@
 ___________
 
  # CYBER-PANDA-MD-V.03
- ##
+ #
  Best Multi Device WhatsApp Bot
 
 ___________
@@ -27,12 +27,13 @@ ___________
 
 1. If You don't have an account in Heroku. Create a account.
     <br>
-<p align="center"><a href="https://signup.heroku.com"> <img src="https://img.shields.io/badge/heroku%20Account-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p <a href="https://signup.heroku.com"> <img src="https://img.shields.io/badge/heroku%20Account-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 3. Now Deploy
     <br>
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/CYBER-x-SACHIYA-SL-MD-BOT/CYBER-PANDA-MD-"> <img src="https://img.shields.io/badge/Heroku%20Deploy-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p <a href="https://heroku.com/deploy?template=https://github.com/CYBER-x-SACHIYA-SL-MD-BOT/CYBER-PANDA-MD-"> <img src="https://img.shields.io/badge/Heroku%20Deploy-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
+✪ Other Sites Coming Soon...✪
 
 ___________
 
