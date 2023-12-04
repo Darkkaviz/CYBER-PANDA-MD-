@@ -6,7 +6,7 @@
 </p>  
 <p align="center">
   <a aria-label="chat With Creater" href="https://wa.me/+94767233346" target="_blank">
-    <img alt="whatsapp" src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+    <img alt="whatsapp" src="https://img.shields.io/badge/Chat Creater-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
 <a aria-label="Bot Whatsapp" href="https://chat.whatsapp.com/FiVM7anDmin0qnLqWwkgev" target="_blank">
     <img alt="whatsapp" src="https://img.shields.io/badge/Bot%20Whatsapp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
@@ -19,6 +19,7 @@ ___________
  <p align="center">
    <a href="https://github.com/CYBER-x-SACHIYA-SL-MD-BOT/CYBER-PANDA-MD-"><img src="http://readme-typing-svg.herokuapp.com?color=FF0000&center=true&vCenter=true&multiline=false&lines=Cyber+Panda+MD;Best+MultiDevice+Bot;Developed+By+Sachiya;Supported+By+Senuwa" alt="UwU">
 </p>
+     
 ___________
 
 #### Step By Step 👇🐼
@@ -84,6 +85,7 @@ ___________
 
 
 ❖ Bot Release Date :
+
 ❖ Bot Last Update Date :
 
 ❖ ⒸAll Right Recieved 2023
