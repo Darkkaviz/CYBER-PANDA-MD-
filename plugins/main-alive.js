@@ -39,5 +39,3 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
     handler.command = /^(alive)$/i 
 
     export default handler;
-
-https://github.com/CYBER-x-SACHIYA-SL-MD-BOT/CYBER-PANDA-MD-/blob/main/Assets/mp3/panda.mp3
