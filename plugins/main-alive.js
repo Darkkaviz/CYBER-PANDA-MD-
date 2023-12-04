@@ -21,7 +21,7 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
         contextInfo: {
           mentionedJid: [m.sender],
           externalAdReply: {
-          title: "I AM CYBER PANDA MD",
+          title: "┏━━━━━━━━━━━━━━━━━━ •┃ 🐼 │𝐂𝐘𝐁𝜩𝐑│𝐏𝜟𝐍𝐃𝐀│𝐌𝐃│𝐕➂ 🐼┗━━━━━━━━━━━━━━━━━━ • *_🧸Hey...I'm online now🧸_*┏━━━━━━━━━━━━━━━━━━ •┃ 🎭  *Owners:* SACHITH & SENESH┃  👽 *Gold:* 0┃  🎯 *Role:* Tadpole┃  💫 *Level:* 0 [ 69 Xp For Levelup]┃  🌀 *Xp:* 0 / 69┃  🛑 *Total Xp:* 0┗━━━━━━━━━━━━━━━━━━ •┏━━━━━━━━━━━━━━━━━━ •┃  🐼 *Bot Name:* 𝐂𝐘𝐁𝜩𝐑│𝐏𝜟𝐍𝐃𝐀│𝐌𝐃│𝐕➂┃  🔰 *Mode:* Public┃  🛐 *Platform:* linux┃  ✅ *Type:* NodeJs┃  ☎ *Baileys:* Multi Device┃  ☀ *Prefix:* [ *.* ]┃  ⬆️  *Uptime:* 00 H 01 M 40 S ┃  ♻️ *Database:*  8┗━━━━━━━━━━━━━━━━━━ •┍━━━━━━━━━━━━━━━━━━ •┃   *_Developed By Cyber Sachiya_*┗━━━━━━━━━━━━━━━━━━ •",
           body: "GURU BOT",
           thumbnailUrl: img,
           sourceUrl: 'https://chat.whatsapp.com/F3sB3pR3tClBvVmlIkqDJp',
