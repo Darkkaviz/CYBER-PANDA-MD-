@@ -15,14 +15,13 @@ let handler = async (m, { conn, text }) => {
     const firstResult = results[0];
 
     const message = `
-┍━━━━━━━━━━━━━━━━━━
-┃🐼${firstResult.title}
-┗━━━━━━━━━━━━━━━━━━
-┃🐼*Link* : ${firstResult.url}
-┃🐼*Duration* : ${firstResult.timestamp}
-┃🐼*Published :* ${firstResult.ago}
-┃q*Views:* ${firstResult.views}
-┗━━━━━━━━━━━━━━━━━━ `;
+🍁 ${firstResult.title}
+🐼 *Link* : ${firstResult.url}
+💞 *Duration* : ${firstResult.timestamp}
+⌛ *Published :* ${firstResult.ago}
+🧿 *Views:* ${firstResult.views}
+
+    `;
 
     conn.sendFile(m.chat, firstResult.thumbnail, 'yts.jpeg', message, m);
   } catch (error) {

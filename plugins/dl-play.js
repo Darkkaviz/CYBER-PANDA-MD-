@@ -27,17 +27,15 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
 
     // Create a message caption with video information
     const captvid = `
-┍━━━━━━━━━━━━━━━━━━
-┃        🎵 𝘚𝘖𝘕𝘎 🎵
-┗━━━━━━━━━━━━━━━━━━
-    
-┍━━━━━━━━━━━━━━━━━━
-┃🐼Title: ${title}
-┃🐼Duration: ${duration}
-┃🐼Views: ${views}
-┃🐼Upload: ${uploaded}
-┃🐼Link: ${url}
-┗━━━━━━━━━━━━━━━━━━`;
+▱▱▱▱▱▱▱▱▱▱▱▱▱  
+    Y O U T U B E
+▱▱▱▱▱▱▱▱▱▱▱▱▱   
+  🐼 Title: ${title}
+  🐼 Duration: ${duration}
+  🐼 Views: ${views}
+  🐼 Upload: ${uploaded}
+  🐼 Link: ${url}
+▱▱▱▱▱▱▱▱▱▱▱▱▱`;
 
     // Send the video information along with the thumbnail to the Discord channel
     conn.sendMessage(m.chat, { image: { url: thumbnail }, caption: captvid, footer: author }, { quoted: m });

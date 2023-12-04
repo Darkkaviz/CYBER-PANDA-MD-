@@ -21,18 +21,17 @@ let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) =
   const data = await response.json();
 
   const caption = `
-┍━━━━━━━━━━━━━━━━━━ 
-┃꧁𝘠𝘖𝘜𝘛𝘜𝘉𝘌-𝘚𝘖𝘕𝘎꧂ 
-┗━━━━━━━━━━━━━━━━━━
-
-┍━━━━━━━━━━━━━━━━━━	  
-┃🐼Title: ${data.result.title}
-┃🐼Channel: ${data.result.channel}
-┃🐼Duration: ${data.result.seconds} seconds
-┃🐼Views: ${data.result.view}
-┃🐼Upload: ${data.result.publicDate}
-┃🐼Link: ${args[0]}
-┗━━━━━━━━━━━━━━━━━━`
+▱▱▱▱▱▱▱▱▱▱▱▱▱
+  Y O U T U B E 
+▱▱▱▱▱▱▱▱▱▱▱▱▱
+  👽 Title: ${data.result.title}
+  🛑 Channel: ${data.result.channel}
+  🎯 Duration: ${data.result.seconds} seconds
+  🔰 Views: ${data.result.view}
+  💫 Upload: ${data.result.publicDate}
+  🎭 Link: ${args[0]}
+  
+▱▱▱▱▱▱▱▱▱▱▱▱▱`
 
 
   let vid = await fetch(gapi)
